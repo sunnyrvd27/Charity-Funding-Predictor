@@ -38,7 +38,7 @@ Following steps were used to preprocess the data
   ![featurelist](Images/featurelist.png)
   * A total of 43 columns were created
 * Finally we merged the one-hot encoded features in our dataframe and dropped the original columns
-  * IMG
+  ![merge](Images/merge.png)
 * We then performed final data processing of
   * Splitting the data into X and y
   * Splitting the data into Train and Test dataset
@@ -54,14 +54,14 @@ Following steps were used to preprocess the data
   * Layer 2 - 30 neurons, Activation - "relu"
   * Output Layer - 1 neuron, activation - 'sigmoid'
 * Model structure as follows
-  * IMG
+  ![neuralmodel](Images/neuralmodel.png)
 * Compiled and fitted the model for 100 epochs
 * Results:
   * Training Stats - loss: 0.5357 - accuracy: 0.7390
   * Test Stats - Loss: 0.5580378770828247, Accuracy: 0.7314285635948181
 * Model was saved in `AlphabetSoupCharity.h5`
 * Accuracy for 100 epochs were as follows:
-  * IMG
+  ![accuracymodel](Images/accuracymodel.png)
 Code in `Starter_Code.ipynb`
 
 ### CONCULSION: Based on our Deep Neural Network model the accuracy of only 73% was observed. The model needs to be tweaked to see if any
