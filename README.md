@@ -61,7 +61,9 @@ Following steps were used to preprocess the data
   * Test Stats - Loss: 0.5580378770828247, Accuracy: 0.7314285635948181
 * Model was saved in `AlphabetSoupCharity.h5`
 * Accuracy for 100 epochs were as follows:
+* 
   ![accuracymodel](Images/accuracymodel.png)
+  
 Code in `Starter_Code.ipynb`
 
 ### CONCULSION: Based on our Deep Neural Network model the accuracy of only 73% was observed. The model needs to be tweaked to see if any
