@@ -35,7 +35,7 @@ Following steps were used to preprocess the data
   * `APPLICATION_TYPE` whose count < 500
   * `CLASSIFICATION` whose count < 1000
 * I used `OneHotEncoder` to create a feature list as shown below
-  * IMG
+  ![featurelist](Images/featurelist.png)
   * A total of 43 columns were created
 * Finally we merged the one-hot encoded features in our dataframe and dropped the original columns
   * IMG
